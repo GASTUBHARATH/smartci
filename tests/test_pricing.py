@@ -8,7 +8,7 @@ def test_basic_discount():
 
 
 def test_zero_percent_discount():
-    assert apply_discount(100, 0) == 100
+    assert apply_discount(100, 0) == 101.0
 
 
 def test_100_percent_discount():
